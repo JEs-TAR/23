@@ -41,7 +41,7 @@ def game_window():
     score_ = 0
     x = gender_guesser()
 
-    name_display = tk.Label(root,text=f"Name: {name}",font=("ArcadeClassic",16,"bold"),bg="#55AE95")
+    name_display = tk.Label(root,text=f"Name: {name}",font=("Times",16,"bold"),bg="#55AE95")
     name_display.place(x=170,y=100)
 
     b1 = tk.Button(text="Male",command=male)
@@ -50,7 +50,7 @@ def game_window():
     b2 = tk.Button(text="Female",command=female)
     b2.place(x=300, y=250, width=100, height=50)
 
-    score = tk.Label(root,text=f"Current Score:{score_}",font=("ArcadeClassic",12,"bold"),bg="#55AE95")
+    score = tk.Label(root,text=f"Current Score:{score_}",font=("Times",12,"bold"),bg="#55AE95")
     score.place(x=350,y=470)
 
     root.mainloop()
