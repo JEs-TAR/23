@@ -18,7 +18,7 @@ Banner = tk.PhotoImage(file="Resources\\banner(1).png")
 L1 = tk.Label(root_game,image=Banner)
 L1.place(x=100,y=180)
 
-b1 = tk.Button(root_game,text="Play",command=on_play,font=("ArcadeClassic",12,"bold"))
+b1 = tk.Button(root_game,text="Play",command=on_play,font=("Times",12,"bold"))
 b1.place(x=320,y=450)
 
 root_game.mainloop()
